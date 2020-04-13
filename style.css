@@ -1,4 +1,6 @@
 body {
+    max-width: 90%;
+    margin-left: 5%;
     background-color: aqua;
     text-align: center;
     font-family: Papyrus; 
@@ -12,8 +14,9 @@ header {
 footer {
     background-image: linear-gradient(blueviolet, rgb(168, 62, 120));
     color: azure;
-    position: sticky;
-    margin-top: 77px;
+    position: absolute;
+    bottom: 0;
+    width: 90%;
 }
 form {
     display: inline-flex;
