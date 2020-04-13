@@ -12,15 +12,15 @@
             <h3 id="date">Date:</h3>
         </header>
         <form id="frm1" action="app.js">
-            Enter Item: <input class="inputBox" type="text" id="fitem"><br>
-            <input class="button" type="button" onclick="todo.getItem(); todo.returnList();" value="Add Item">
+            Enter Task: <input class="inputBox" type="text" id="fitem"><br>
+            <input class="button" type="button" onclick="todo.getItem(); todo.returnList();" value="Add Task">
         </form>
         <div id="listItems"></div>  
         <input class="button" type="button" onclick="todo.deleteItem(); todo.returnList();" value="Done">
         <footer>
             <h3>Finished tasks</h3>
             <div id="done"></div>
-            <input class="footerButton" type="button" onclick="todo.clearList();" value="Clear Items">
+            <input class="footerButton" type="button" onclick="todo.clearList();" value="Clear Tasks">
         </footer>
         <script  type="text/javascript" src="app.js"></script>
     </body>
