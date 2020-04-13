@@ -12,7 +12,7 @@ header {
     font-size: 19px;
 }
 footer {
-    background-image: linear-gradient(blueviolet, rgb(168, 62, 120));
+    background-image: linear-gradient(blueviolet, aqua);
     color: azure;
     position: absolute;
     bottom: 0;
