@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ToDo</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body>
+        <header>
+            <h1>To Do</h1>
+            <h3 id="date">Date:</h3>
+        </header>
+        <form id="frm1" action="app.js">
+            Enter Item: <input class="inputBox" type="text" id="fitem"><br>
+            <input class="button" type="button" onclick="todo.getItem(); todo.returnList();" value="Add Item">
+        </form>
+        <div id="listItems"></div>  
+        <input class="button" type="button" onclick="todo.deleteItem(); todo.returnList();" value="Done">
+        <footer>
+            <h3>Finished tasks</h3>
+            <div id="done"></div>
+            <input class="footerButton" type="button" onclick="todo.clearList();" value="Clear Items">
+        </footer>
+        <script  type="text/javascript" src="app.js"></script>
+    </body>
+</html>
+

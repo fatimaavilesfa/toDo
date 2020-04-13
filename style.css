@@ -1,0 +1,48 @@
+body {
+    background-color: aqua;
+    text-align: center;
+    font-family: Papyrus; 
+    color: blueviolet;
+}
+header {
+    background-color: azure;
+    color: blueviolet;
+    font-size: 19px;
+}
+footer {
+    background-image: linear-gradient(blueviolet, rgb(168, 62, 120));
+    color: azure;
+    position: sticky;
+    margin-top: 77px;
+}
+form {
+    display: inline-flex;
+}
+.button {
+    background-color: white; 
+    color: blueviolet; 
+    border: 2px solid blueviolet;
+    border-radius: 22px;
+    font-family: Papyrus;
+  }
+  
+.button:hover {
+    background-color: blueviolet;
+    color: white;
+}
+.footerButton {
+    background-color: blueviolet; 
+    color: azure; 
+    border: 2px solid azure;
+    border-radius: 22px;
+    font-family: Papyrus;
+}
+.footerButton:hover {
+    background-color: white;
+    color: blueviolet;
+}
+.inputBox {
+    border-radius: 15px;
+    font-family: Papyrus;
+    color: blueviolet;
+}
