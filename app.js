@@ -48,18 +48,18 @@ function itemManager() {
             if(formInput.length > 1) {
                 formOutput.innerHTML =  formInput.map(
                     (e, i) => {
-                       return  "<input  id='" +  i + "' type='checkbox' onclick='todo.selectItem("+ i +", this)'/>" + "<label for='"+ i +"'>" + e + "</label>";
+                       return  `<input  id=${i} type='checkbox' onclick='todo.selectItem(${i}, this)'/><label for=${i}>${e}</label>`;
                     }
                 ).join("<br/>");
             } 
             else if (formInput.length === 1) {
-                formOutput.innerHTML =  "<input  id='" + 0  + "' type='checkbox' onclick='todo.selectItem(0, this)' />" + "<label for='" + 0 + "'>" + formInput + "</label>";
+                formOutput.innerHTML =  `<input  id='0' type='checkbox' onclick='todo.selectItem(0, this)' /><label for='0'>${formInput}</label>`;
             } else { formOutput.innerHTML = "" }
 
 
             //finished tasks
             if(finishTasks.length) {
-                    done.innerHTML = finishTasks.flat().map(e => "<div>" + e + "</div>").join("");
+                    done.innerHTML = finishTasks.flat().map(e => `<div>${e}</div>`).join("");
                 
             } else {done.innerHTML = ""}
         } 
