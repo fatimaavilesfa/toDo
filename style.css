@@ -17,6 +17,7 @@ footer {
     position: absolute;
     bottom: 0;
     width: 90%;
+    font-size: larger;
 }
 #frm1 {
     display: inline-flex;
@@ -56,5 +57,16 @@ footer {
     background-color: azure;
 }
 #Blocation {
-    margin-top: 22px;
+    margin-top: 12px;
+    width: 15%;
+}
+#listItems {
+    margin-left: 333px;
+    margin-top: 33px;
+    background-color: #a3f7f7;
+    border-style: outset;
+    padding: 10px;
+    border-radius: 25px;
+    width: 50%;
+    font-size: 25px;
 }
