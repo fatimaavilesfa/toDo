@@ -3,7 +3,7 @@ let formatDate = today.toDateString();
 let selectElement = document.getElementById('date');
 selectElement.innerHTML = formatDate;
 
-document.getElementById("fitem");
+
 
 function itemManager() {
     let formInput = [];
@@ -14,7 +14,7 @@ function itemManager() {
         function getItem() {
             //regex for white spaces and empty string
             let regex = /^\s*$/;
-       
+            
             if( !regex.test(document.getElementById("fitem").value) ){
                 formInput.push(document.getElementById("fitem").value);
                 //to clear the imput element
@@ -70,6 +70,7 @@ function itemManager() {
             done.innerHTML = "";
             finishTasks = [];
         }
+        
 
         return {
             getItem: getItem,

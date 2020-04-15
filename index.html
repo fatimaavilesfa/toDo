@@ -12,11 +12,11 @@
             <h3 id="date">Date:</h3>
         </header>
         <div id="frm1" >
-            Enter Task: <input class="inputBox" type="text" id="fitem"><br>
+            Enter Task: <input class="inputBox" type="text" id="fitem" autocomplete="off" autofocus><br>
             <input class="button" type="button" onclick="todo.getItem(); todo.returnList();" value="Add Task">
         </div>
         <div id="listItems"></div>  
-        <input class="button" type="button" onclick="todo.deleteItem(); todo.returnList();" value="Done">
+        <input class="button" id="Blocation" type="button" onclick="todo.deleteItem(); todo.returnList();" value="Done">
         <footer>
             <h3>Finished tasks</h3>
             <div id="done"></div>

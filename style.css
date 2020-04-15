@@ -48,4 +48,13 @@ footer {
     border-radius: 15px;
     font-family: Papyrus;
     color: blueviolet;
+    font-size: larger;
+    padding-right: 55px;
+    margin-right: 17px;
+}
+#fitem.inputBox {
+    background-color: azure;
+}
+#Blocation {
+    margin-top: 22px;
 }
