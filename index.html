@@ -11,10 +11,10 @@
             <h1>To Do</h1>
             <h3 id="date">Date:</h3>
         </header>
-        <form id="frm1" action="app.js">
+        <div id="frm1" >
             Enter Task: <input class="inputBox" type="text" id="fitem"><br>
             <input class="button" type="button" onclick="todo.getItem(); todo.returnList();" value="Add Task">
-        </form>
+        </div>
         <div id="listItems"></div>  
         <input class="button" type="button" onclick="todo.deleteItem(); todo.returnList();" value="Done">
         <footer>
