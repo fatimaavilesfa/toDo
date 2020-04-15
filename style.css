@@ -17,7 +17,6 @@ footer {
     position: absolute;
     bottom: 0;
     width: 90%;
-    font-size: larger;
 }
 #frm1 {
     display: inline-flex;
@@ -68,5 +67,7 @@ footer {
     padding: 10px;
     border-radius: 25px;
     width: 50%;
-    font-size: 25px;
+    font-size: 18px;
+    text-align: left;
+    text-transform: capitalize;
 }
